@@ -1,0 +1,14 @@
+.custom-form{
+    text-align: center;
+    .input_form{
+        display: grid !important;
+        grid-gap: 1rem !important;
+    }
+    custom-input-field{
+        outline: none !important;
+    }
+       
+}
+.result_container{
+    text-align: center;
+}

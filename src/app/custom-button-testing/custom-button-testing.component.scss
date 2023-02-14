@@ -1,0 +1,16 @@
+h2 {
+    margin: 1rem;
+    font-family: 'Cera Pro Bold';
+    text-align: center;
+    color: rgb(130, 122, 122);
+}
+.custom-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 5vh;
+}
+custom-button{
+    margin-right: 0.5rem;
+}

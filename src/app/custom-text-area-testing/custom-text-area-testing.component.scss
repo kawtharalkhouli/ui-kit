@@ -1,0 +1,20 @@
+h2 {
+    margin: 0.25rem 0.5rem;
+    font-family: 'Cera Pro Bold';
+    text-align: center;
+    color: rgb(130, 122, 122);
+}
+.custom-area-form{
+    text-align: center;
+    .text-area-form{
+        display: grid !important;
+        grid-gap: 1rem !important;
+    }
+    custom-text-area{
+        outline: none !important;
+    }
+       
+}
+.testFormResultContainer{
+    text-align: center;
+}

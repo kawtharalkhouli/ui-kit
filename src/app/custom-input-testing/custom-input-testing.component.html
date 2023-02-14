@@ -1,0 +1,13 @@
+<div class="custom-form">
+    <form [formGroup]="customInputForm" class="input_form">
+        <custom-input [type]="'email'" formControlName="email" [placeholder]="'E-mail'" ></custom-input>
+        <custom-input formControlName="firstName" [placeholder]="'First Name'" ></custom-input>
+        <custom-input  formControlName="lastName" [placeholder]="'Last Name'" [fieldType]="'iconIncluded'" [icon]="'info'" ></custom-input>
+        <custom-input  formControlName="phoneNumber" [placeholder]="'Phone Number'" [disabled]="true" [fieldType]="'iconIncluded'"></custom-input>
+        <custom-input [type]="'password'" formControlName="password" [placeholder]="'Password'" ></custom-input>
+    </form>
+</div>
+<div class="result_container">
+    <pre><code>{{ customInputForm.value | json }}</code></pre>
+</div>
+

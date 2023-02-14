@@ -1,0 +1,13 @@
+
+<h2>Default Progress Bar</h2>
+<div class="custom-progress-bar-container">
+    <custom-progress-bar [value]="17"></custom-progress-bar>
+</div>
+<h2>Error Progress Bar with Default Error Message</h2>
+<div class="custom-progress-bar-container">
+    <custom-progress-bar [type]="'error'" [value]="17"></custom-progress-bar>
+</div>
+<h2>Error Progress Bar with Custom Error Message</h2>
+<div class="custom-progress-bar-container">
+    <custom-progress-bar [type]="'error'" [value]="17" [errorMsg]="'An error has occured, try again'"></custom-progress-bar>
+</div>
